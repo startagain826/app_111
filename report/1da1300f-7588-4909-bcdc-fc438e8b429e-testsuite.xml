@@ -1,0 +1,36 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1530886853552" stop="1530886853623">
+  <name>Scripts.test_01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1530886853552" status="failed" stop="1530886853623">
+      <name>Test_01.test_01_1</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;Scripts.test_01.Test_01 object at 0x10476eeb8&gt;
+
+    @allure.step(title="第一个测试")
+    def test_01_1(self):
+&gt;       assert 0
+E       assert 0
+
+Scripts/test_01.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3360-MainThread"/>
+        <label name="host" value="ph"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1530886853560" status="failed" stop="1530886853562">
+          <name>第一个测试</name>
+          <title>第一个测试</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
